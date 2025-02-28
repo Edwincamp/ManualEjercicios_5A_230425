@@ -1,18 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Ejercicio01Component } from './ejercicio-01/ejercicio-01.component';
-import { Ejercicio02Component } from './ejercicio-02/ejercicio-02.component';
-import { Ejercicio03Component } from './ejercicio-03/ejercicio-03.component';
-import { MatButtonModule } from '@angular/material/button';
-import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { MatButtonModule } from '@angular/material/button'
+import { NavbarComponent } from "./components/navbar/navbar.component";
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { PageContentComponent } from "./components/page-content/page-content.component";
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, Ejercicio01Component, Ejercicio02Component, Ejercicio03Component, MatButtonModule, ToolbarComponent],
+  imports: [RouterOutlet, MatButtonModule, NavbarComponent, SidebarComponent, PageContentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Manual de Ejercicios - MATRICULA - INICIALES';
+  title = 'ManualEjercicios_5A_230389';
 }
