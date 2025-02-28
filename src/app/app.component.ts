@@ -12,5 +12,5 @@ import { PageContentComponent } from "./components/page-content/page-content.com
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'ManualEjercicios_5A_230389';
+  title = 'ManualEjercicios_5A_230425';
 }
